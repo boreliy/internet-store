@@ -1,0 +1,180 @@
+body {
+	font: 12px arial,sans-serif;
+}
+
+.wrapper {
+	padding: 40px;
+	width: 620px;
+	margin: 0 auto;
+	background: #ddd;
+	overflow: hidden;
+}
+
+div#admin_enter {
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+/*Системные сообщения*/
+div.system_message {
+	font-size: 14px;
+	padding: 15px;
+	margin-bottom: 15px;
+	display: none;
+}
+
+.success_message {
+	border: 1px solid #368636;
+	background: #88B688;
+	color: #368636;
+	display: block !important;
+}
+
+.warning_message {
+	color: #FF0000;
+	background: #F5D1D1;
+	border: 1px solid #FF0000;
+	display: block !important;
+}
+
+/*Форма гостевой книги*/
+div.gb_user_information {
+	overflow:hidden;
+	clear: both;
+	margin-bottom: 15px;
+}
+
+div.gb_user_mail,
+div.gb_user_name {
+	float: left;
+	width: 180px;
+}
+
+div.gb_user_information input {
+	margin: 0;
+}
+
+textarea#gb_message {
+	width: 610px;
+	height: 200px;
+}
+
+textarea#edit_area {
+	width: 610px;
+	height: 200px;
+}
+
+textarea#edit_id {
+	position: absolute;
+	margin-left: -300px;
+	display: none;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+/*Класс ошибки для полей ввода*/
+input.error,
+textarea.error {
+	border: 1px solid #FF0000;
+}
+
+
+
+/*Дополнительный функционал, загрузка файла и CAPTCHA*/
+div.gb_extension {
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+div.gb_image,
+div.gb_captcha {
+	float: left;
+	width: 310px;
+	height: 32px;
+}
+
+div.gb_captcha input{
+	width: 150px;
+	height: 32px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+div.gb_future_image_captcha {
+	width: 150px;
+	height: 30px;
+	float: left;
+	background: #ffffff;
+	border: 1px solid #aaa;
+	margin-right: 2px;
+}
+
+div.gb_submit {
+	text-align: right;
+}
+
+/*Вывод сообщения*/
+
+div#gb_messages {
+	margin-bottom: 15px;
+}
+
+div.gb_mess_info {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+div.gb_message {
+	margin-top: 5px;
+}
+
+div.gb_mess_author {
+	float: left;
+}
+
+div.gb_mess_date {
+	font-size: 16px;
+	float: left;
+	margin-left: 20px;
+}
+
+div.gb_mess_author {
+	font-size: 16px;
+}
+
+div.gb_mess_info ul  {
+	float: right;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+div.gb_mess_info ul li {
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+
+div.future_mess_image {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+div.gb_mess_content {
+	background: #ffffff;
+	padding: 15px;
+	clear: both;
+	overflow: hidden;
+	border: 2px solid #aaa;
+}
+
+div.gb_submitEdit {
+	text-align: left;
+}
